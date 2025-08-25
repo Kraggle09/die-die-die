@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "stone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "diediedie:advancementget"
+  },
+  "requirements": [
+    [
+      "stone_pickaxe"
+    ]
+  ]
+}

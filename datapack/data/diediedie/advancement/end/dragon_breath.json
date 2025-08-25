@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "dragon_breath": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dragon_breath"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "diediedie:advancementget"
+  },
+  "requirements": [
+    [
+      "dragon_breath"
+    ]
+  ]
+}

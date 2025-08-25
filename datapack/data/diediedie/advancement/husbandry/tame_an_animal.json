@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "tamed_animal": {
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "rewards": {
+    "function": "diediedie:advancementget"
+  },
+  "requirements": [
+    [
+      "tamed_animal"
+    ]
+  ]
+}

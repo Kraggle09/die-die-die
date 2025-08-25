@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "diediedie:advancementget"
+  },
+  "requirements": [
+    [
+      "iron_pickaxe"
+    ]
+  ]
+}

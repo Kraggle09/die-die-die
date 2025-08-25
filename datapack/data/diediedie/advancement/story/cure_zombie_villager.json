@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:story/enter_the_nether",
+  "criteria": {
+    "cured_zombie": {
+      "trigger": "minecraft:cured_zombie_villager"
+    }
+  },
+  "rewards": {
+    "function": "diediedie:advancementget"
+  },
+  "requirements": [
+    [
+      "cured_zombie"
+    ]
+  ]
+}

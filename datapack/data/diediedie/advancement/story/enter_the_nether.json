@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:story/form_obsidian",
+  "criteria": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "rewards": {
+    "function": "diediedie:advancementget"
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ]
+}

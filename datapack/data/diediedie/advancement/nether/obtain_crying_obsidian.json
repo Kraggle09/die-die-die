@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "crying_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crying_obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "diediedie:advancementget"
+  },
+  "requirements": [
+    [
+      "crying_obsidian"
+    ]
+  ]
+}
