@@ -4,6 +4,9 @@
       "trigger": "minecraft:consume_item"
     }
   },
+  "rewards": {
+    "function": "diediedie:advancementget"
+  },
   "requirements": [
     [
       "consumed_item"
