@@ -5,6 +5,8 @@ This is a challenge pack which kills you every 10 seconds. For each advancement 
 - Keep inventory is enabled on world load to make this a little more possible.
 - This doesn't work with custom advancements.
 
+**Compatibility:**
+
 ![compatibility guide](https://raw.githubusercontent.com/Kraggle09/die-die-die/refs/heads/main/assets/compatibility.png)
 
 Explanation: Versions highlighted with orange will partially function, but some modified advancements will not work.
