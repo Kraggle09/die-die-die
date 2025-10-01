@@ -1,7 +1,12 @@
 {
     "pack": {
         "description": "Die Die Die - Good luck",
-        "min_format": [88, 0],
-        "max_format": [88, 999999]
+        "pack_format": 88,
+        "min_format": [48, 0],
+        "max_format": [88, 999999],
+        "supported_formats": {
+            "min_inclusive": 48,
+            "max_inclusive": 88
+        }
     }
 }
