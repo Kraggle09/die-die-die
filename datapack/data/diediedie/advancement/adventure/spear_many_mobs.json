@@ -1,0 +1,14 @@
+{
+	"parent": "minecraft:adventure/kill_a_mob",
+	"criteria": {
+		"spear_many_mobs": {
+			"conditions": {
+				"count": 5
+			},
+			"trigger": "minecraft:spear_mobs"
+		}
+	},
+	"rewards": {
+		"function": "diediedie:advancementget"
+	}
+}
